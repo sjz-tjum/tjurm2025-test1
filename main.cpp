@@ -10,7 +10,7 @@ void test_rgb2gray() {
     std::cout << "开始测试函数 << rgb2gray >> ..." << std::endl;
     char *path = "../images/rgb2gray/input.jpg";
     float *img;
-    int h, w, c;
+    int h, w, c;     //
 
     imread(path, &img, &h, &w, &c);
     std::cout << "读取图片images/rgb2gray/input.jpg，高度为" << h << "，高度为" << w
